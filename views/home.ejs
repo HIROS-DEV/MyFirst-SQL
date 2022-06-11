@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="/app.css" />
+		<title>MySQL Tuts</title>
+	</head>
+	<body>
+		<div class="flex-container">
+			<div class="container">
+				<h1>JOIN US</h1>
+				<p class="lead">
+					Enter your email to join
+					<strong><%= data %> </strong> others on our waitlist. We are
+					100% not a cult.
+				</p>
+				<form action="/register" method="POST">
+					<input
+						type="text"
+						name="email"
+						class="form"
+						placeholder="Enter Your Email"
+					/>
+					<button>Join Now</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
