@@ -29,6 +29,17 @@ But I am going to create MySQL project in the near future.
 - @faker-js/faker
 - colors
 - nodemon
+
+## .env file
+
+I used .env file in this project.
+
+- PORT= "Your port number here!!"
+- NODE_ENV= "Your NODE_ENV here!!"
+- MYSQL_HOST= "Your MySQL host number here!!"
+- MYSQL_USER= "Your MySQL username here!!"
+- MYSQL_PASSWORD= "Your MySQL password here!!"
+- MYSQL_DATABASE= "Your MySQL database name here!!"
  
 ## Acknowledgements
 
